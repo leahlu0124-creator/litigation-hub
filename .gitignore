@@ -1,0 +1,17 @@
+# 本地 config（含真实路径和代理方信息，仅本地使用）
+config/case-parties.json
+config/case-root.json
+config/user-preferences.json
+
+# 发布快照（仅本地比对用）
+.last-published/
+
+# 归档记录（含真实案件信息）
+archive/*.json
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
